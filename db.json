@@ -1,0 +1,172 @@
+{
+"getDataList": {
+    "name": "leepeng",
+    "password": "123456"
+  },
+  "getCaseList": [
+    {
+      "title": "案例1-1",
+      "tabsort": "风格",
+      "CaseId": 10001,
+      "category": 101000,
+      "tab":"欧式",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    }, {
+      "title": "案例1-2",
+      "tabsort": "风格",
+      "CaseId": 10002,
+      "category": 101000,
+      "tab":"欧式",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    },{
+      "title": "案例1-3",
+      "tabsort": "风格",
+      "CaseId": 10003,
+      "category": 101000,
+      "tab":"欧式",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    },{
+      "title": "案例1-4",
+      "tabsort": "风格",
+      "CaseId": 10004,
+      "category": 101000,
+      "tab":"欧式",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    }, {
+      "title": "案例2",
+      "tabsort": "风格",
+      "CaseId": 10005,
+      "category": 102000,
+      "tab":"现代",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    }, {
+      "title": "案例3",
+      "tabsort": "空间",
+      "CaseId": 10006,
+      "category": 103000,
+      "tab":"卧室",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    }, {
+      "title": "案例4",
+      "tabsort": "空间",
+      "CaseId": 10007,
+      "category": 104000,
+      "tab":"儿童房",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    }, {
+      "title": "案例5",
+      "tabsort": "户型",
+      "CaseId": 10008,
+      "category": 105000,
+      "tab":"四居室",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    }, {
+      "title": "案例6",
+      "tabsort": "户型",
+      "CaseId": 10009,
+      "category": 106000,
+      "tab":"三居室",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":"<p><img src='./static/pic/product_01.jpg'/></p>案例内容<p>案例内容</p>案例内容"
+    }
+  ],
+  "CaseTabSort":[
+    {
+      "title":"风格",
+      "value":[
+        {
+          "id":1,
+          "category": 101000,
+          "name":"欧式"
+        },
+        {
+          "id":2,
+          "category": 102000,
+          "name":"现代"
+        }
+      ]
+    },
+    {
+      "title":"空间",
+      "value":[
+        {
+          "id":1,
+          "category": 103000,
+          "name":"卧室"
+        },
+        {
+          "id":2,
+          "category": 104000,
+          "name":"儿童房"
+        }
+      ]
+    },
+    {
+      "title":"户型",
+      "value":[
+        {
+          "id":1,
+          "category": 105000,
+          "name":"四居室"
+        },
+        {
+          "id":2,
+          "category": 106000,
+          "name":"三居室"
+        }
+      ]
+    }
+  ],
+  "getSiteList":[
+    {
+      "title": "工地1",
+      "SiteId": 10001,
+      "designer": "王生",
+      "schedule": "验收阶段",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content": [{"tit":"水电改造","img":["./static/pic/product_01.jpg"]},{"tit":"验收阶段","img":["./static/pic/product_01.jpg","./static/pic/product_01.jpg"]}]
+    }, {
+      "title": "工地2",
+      "SiteId": 10002,
+      "designer": "王生",
+      "schedule": "验收阶段",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":[{"tit":"水电改造","img":["./static/pic/product_01.jpg"]},{"tit":"验收阶段","img":["./static/pic/product_01.jpg","./static/pic/product_01.jpg"]}]
+    }, {
+      "title": "工地3",
+      "SiteId": 10003,
+      "designer": "王生",
+      "schedule": "验收阶段",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":[{"tit":"水电改造","img":["./static/pic/product_01.jpg"]},{"tit":"验收阶段","img":["./static/pic/product_01.jpg","./static/pic/product_01.jpg"]}]
+    }, {
+      "title": "工地4",
+      "SiteId": 10004,
+      "designer": "王生",
+      "schedule": "验收阶段",
+      "imgUrl": "./static/pic/product_01.jpg",
+      "imgList": [{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"},{"href": "", "src": "./static/pic/product_01.jpg"}],
+      "content":[{"tit":"水电改造","img":["./static/pic/product_01.jpg"]},{"tit":"验收阶段","img":["./static/pic/product_01.jpg","./static/pic/product_01.jpg"]}]
+    }
+  ]
+}
