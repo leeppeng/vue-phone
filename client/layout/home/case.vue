@@ -1,7 +1,7 @@
 <template>
-  <l-panel :class="$style.panel" title="产品展示">
-    <section class="content indpro">
-      <div class="arrow">查看更多 > </div>
+  <l-panel :class="$style.panel" title="案例展示">
+    <section class="content">
+      <div class="arrow">更多案例> </div>
       <l-slider :options="options" :sliders="sliders" cname="designer-slider"/>
     </section>
   </l-panel>
@@ -57,6 +57,26 @@ export default {
 }
 </script>
 <style lang="scss">
+.content{
+  padding-bottom: 20px;
+  position: relative;
+  &>div.arrow{
+    font-size: 24px;
+    color:#999;
+    position: absolute;
+    right: 20px;
+    top: -70px
+  }
+  .designer-slider{
+    .swiper-container{
+      box-sizing: border-box;
+      img{
+        width: 100%;
+        border-radius: 5%
+      }
+    }
+  }
+}
 </style>
 <style lang="scss" module>
 @import "../../assets/css/element.scss";

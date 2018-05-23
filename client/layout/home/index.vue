@@ -3,7 +3,7 @@
     <!--l-header/-->
     <l-slider/>
     <l-favorable/>
-    <l-designer/>
+    <l-case/>
     <l-product/>
     <l-advantage/>
     <l-footer/>
@@ -14,7 +14,7 @@
 // import LHeader from "../public/header.vue"
 import LSlider from "./layslider.vue"
 import LFavorable from "./favorable.vue"
-import LDesigner from "./designer.vue"
+import LCase from "./case.vue"
 import LAdvantage from "./advantage.vue"
 import LProduct from "./product.vue"
 import LFooter from "../public/footer.vue"
@@ -24,7 +24,7 @@ export default {
     // LHeader,
     LSlider,
     LFavorable,
-    LDesigner,
+    LCase,
     LAdvantage,
     LProduct,
     LFooter,
